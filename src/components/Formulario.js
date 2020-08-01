@@ -57,7 +57,7 @@ const Formulario = ({setMoneda, setCriptomoneda}) => {
             setError(true);
             return;
         }
-        setError(true);
+        setError(false);
         //pasar los datos al componente principal
         setMoneda(moneda); 
         setCriptomoneda(criptomoneda);
